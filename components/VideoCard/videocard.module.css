@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    width: 60vw;
+    height: 40vh;
+    margin: 10px;
+    box-shadow: 3px 3px 10px 1px;
+}
+
+.videoContainer {
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+}
+
+.descriptionContainer {
+    background-color: green;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 300px;
+    }
+
+    .videoContainer {
+        width: 100%;
+        height: 80%;
+    }
+
+    .descriptionContainer {
+        width: 100%;
+        height: 20%;
+    }
+}

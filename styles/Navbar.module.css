@@ -1,0 +1,37 @@
+.navbarContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 2, 48);
+}
+
+.navbarAtHome {
+    width: 100%;
+    margin-left: 5%;
+}
+
+.navbar {
+    position: relative;
+    height: 60px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Image {
+    margin: 0 3%;
+}
+
+.backButton {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 3%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in;
+}
+
+.backButton:hover {
+    background-color: steelblue;
+}
