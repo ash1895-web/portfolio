@@ -4,7 +4,6 @@ import MediumRectBox from "../components/MediumRectBox";
 import LargeRectBox from "../components/LargeRectBox";
 import boxStyle from "../styles/Box.module.css";
 
-import testImage from "../public/card-bg/abstract.jpg";
 import twitter from "../public/icons/twitter-blue.gif";
 import linkedin from "../public/icons/linkedin.gif";
 import githubIcon from "../public/icons/github.gif";
@@ -53,7 +52,6 @@ export default function Home({ icon }) {
             titleColor="black"
             descriptionColor="white"
             icon={testIcon.src}
-            // imageSrc={testImage.src}
             frontBgColor="yellow"
             backBgColor="red"
             description="Waiting for Aseer to create something"
@@ -65,7 +63,6 @@ export default function Home({ icon }) {
             titleColor="black"
             descriptionColor="white"
             icon={testIcon.src}
-            // imageSrc={testImage.src}
             frontBgColor="steelblue"
             backBgColor="red"
             description="Waiting for Aseer to create something"
@@ -85,7 +82,6 @@ export default function Home({ icon }) {
             titleColor="black"
             descriptionColor="white"
             icon={testIcon.src}
-            // imageSrc={testImage.src}
             frontBgColor="white"
             backBgColor="red"
             description="Waiting for Aseer to create something"
@@ -96,4 +92,3 @@ export default function Home({ icon }) {
   );
 }
 
-// test front bg image credit https://unsplash.com/photos/SFT9G3pAxLY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink

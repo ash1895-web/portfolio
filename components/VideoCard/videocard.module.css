@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    width: 60vw;
+    width: 875px;
     height: 40vh;
     margin: 10px;
     box-shadow: 3px 3px 10px 1px;
@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
     color: white;
 }
@@ -30,7 +30,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 400px;
+        width: 500px;
         height: 300px;
     }
 

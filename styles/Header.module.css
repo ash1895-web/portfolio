@@ -11,7 +11,7 @@
   font-family: "Open Sans", sans-serif;
   height: 35vh;
   width: 90vw;
-  background: url("../public/header-bg/code.jpg") center/cover no-repeat;
+  background: url("/header-bg/code.jpg") center/cover no-repeat;
   color: white;
   font-size: x-large;
 }
