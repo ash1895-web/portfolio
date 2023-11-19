@@ -6,7 +6,7 @@ const Header = () => {
       <div className={style.info}>
         <div className={style.text}>
           <h1>Aseer Ansari</h1>
-          <p>Front-end Developer</p>
+          <p>Full Stack Developer</p>
         </div>
       </div>
     </div>
